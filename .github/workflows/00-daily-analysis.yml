@@ -43,8 +43,8 @@ jobs:
         
       - name: 设置时区为北京时间
         uses: szenius/set-timezone@v1.2
-    with:
-      timezoneLinux: "Asia/Shanghai"
+        with:
+          timezoneLinux: "Asia/Shanghai"
       
       - name: 检出代码
         uses: actions/checkout@v5
